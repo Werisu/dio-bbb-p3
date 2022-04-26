@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import {ActivatedRoute} from "@angular/router";
 import {RestService} from "../service/RestService";
 import {Participante} from "../model/participante";
+import { faCircleCheck } from "@fortawesome/free-solid-svg-icons";
+import { faTwitter, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   selector: 'app-registrar-votacao',
@@ -10,6 +12,11 @@ import {Participante} from "../model/participante";
 })
 export class RegistrarVotacaoComponent implements OnInit {
 
+  faTwitter = faTwitter;
+  faGitHub = faGithub;
+  faInstagram = faInstagram;
+
+  faCheck = faCircleCheck;
   title = 'Voto computado';
   voto = '';
 

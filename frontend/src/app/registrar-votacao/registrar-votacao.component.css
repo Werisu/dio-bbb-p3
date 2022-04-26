@@ -1,0 +1,23 @@
+.container-voto{
+  margin: auto;
+  width: 80%;
+}
+
+.label-voto{
+  color: #555;
+  font-weight: 600;
+}
+
+.label-voto h1{
+  font-weight: 500;
+}
+
+.label-voto fa-icon{
+  color: green;
+}
+
+.botao-voltar{
+  width: 100%;
+  background-color: #5001B3;
+  color: white;
+}

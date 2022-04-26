@@ -1,9 +1,24 @@
-<h1>{{title}}</h1>
-<p>
-  Você votou em: {{voto}}
-  <br/><br/>
-  Obrigado pela sua participação
-  <br/><br/>
-
-  <input type="button" value="Voltar">
-</p>
+<div class="d-flex flex-column container-voto">
+  <div class="voto d-flex flex-column">
+    <span class="label-voto">
+      <fa-icon [icon]="faCheck"></fa-icon> Você votou em
+    </span>
+    <span class="nome-voto">
+      <!-- {{ voto }} -->
+      <h1>{{ voto }}</h1>
+    </span>
+    <div class="redes-sociais">
+      <ul class="nav col-md-4">
+        <li class="nav-item"><a href="#" class="nav-link px-2"><fa-icon [icon]="faTwitter"></fa-icon></a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2"><fa-icon [icon]="faGitHub"></fa-icon></a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2"><fa-icon [icon]="faInstagram"></fa-icon></a></li>
+      </ul>
+    </div>
+  </div>
+  <p>
+    <a type="button" class="btn botao-voltar">Voltar Novamete</a>
+    <br /><br />
+    Obrigado pela sua participação
+    <br /><br />
+  </p>
+</div>

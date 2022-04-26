@@ -35,7 +35,7 @@ export class RegistrarVotacaoComponent implements OnInit {
       console.log(response)
       let voto = response as Participante;
       // this.voto = voto.nome;
-      this.voto = voto.id;
+      this.voto = voto.nome;
     });
   }
 

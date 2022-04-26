@@ -14,8 +14,8 @@ export class RestService {
   http://localhost:3000/votacao
   */
 
-  // url = 'http://localhost:8080/api';
-  url = 'http://localhost:3000';
+  url = 'http://localhost:8080/api';
+  // url = 'http://localhost:3000';
   constructor(private httpClient: HttpClient) {  }
 
   getData(endpoint: string): Observable<any[]> {

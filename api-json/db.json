@@ -1,0 +1,44 @@
+{
+  "participantes": [
+    {
+      "id": "1hVs253",
+      "nome": "Wellysson Rocha"
+    },
+    {
+      "id": "1hVs245",
+      "nome": "Jéssica Ribeiro"
+    },
+    {
+      "id": "1hVs256",
+      "nome": "Aparecida Tânia"
+    }
+  ],
+  "votacao": [
+    {
+      "id": "1hVs253"
+    },
+    {
+      "id": "1hVs245"
+    },
+    {
+      "id": "1hVs159"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,0 +1,17 @@
+.container-md{
+  width: 80%;
+}
+
+.radio-voto{
+  margin-right: 24px;
+  font-weight: var(--font-weight-medium);
+  font-size: 24px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 32px;
+  letter-spacing: -.5px;
+}
+
+.imagem-participante img{
+  width: 100px;
+}
